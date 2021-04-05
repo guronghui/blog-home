@@ -1,0 +1,47 @@
+<div>
+    <div>
+        <router-link :to="{name:'demo02'}">
+            <span>demo02</span>
+        </router-link>
+    </div>
+    <div style="margin-top: 20px;">
+        <router-link :to="{name:'demo03'}">
+            <span>demo03</span>
+        </router-link>
+    </div>
+    <div style="overflow: hidden;">
+        <div class="aa"></div>
+
+        <div style="border:1px solid red;width: 300px;overflow: hidden;" @click="asdasdasd(msg)">
+            <div style="float: left;width: 100px;height: 100px;background: #666666;"></div>
+            <div style="float: left;width: 100px;height: 120px;background: #999999;"></div>
+            <div style="float: left;width: 100px;height: 100px;background: #cccccc;"></div>
+            <div style="float: left;width: 100px;height: 100px;background: #dddddd;"></div>
+            <div style="width: 100px;height: 100px;background: #dddddd;"></div>
+        </div>
+        <div style="float: left;width: 100px;height: 200px;background: #aaaaaa;">
+            <span>{{msg}}</span>
+        </div>
+    </div>
+
+    <div>
+        <div class="div1">第一个div</div>
+
+        <div class="container1">
+
+            第二个div的父div
+            <div class="div2">第二个div</div>
+
+        </div>
+
+        <div class="div3">第三个div</div>
+
+        <div class="div4">第四个div</div>
+    </div>
+
+    <div>
+        <div style="height: 100px;width: 100px;float: left;background: lightblue">我是一个左浮动的元素</div>
+        <div style="width: 200px; height: 200px;background: #eee">我是一个没有设置浮动,
+            也没有触发 BFC 元素, width: 200px; height:200px; background: #eee;</div>
+    </div>
+</div>

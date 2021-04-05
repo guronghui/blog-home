@@ -1,0 +1,68 @@
+.aa{
+  width: 10px;
+  height:10px;
+  border-width: 100px;
+  border-style: solid;
+  border-color: black #0099cc red  green;
+  transform: rotate(90deg);
+    }
+
+    .container1{
+
+      position:absolute;
+      
+      height:200px;
+      
+      background-color: greenyellow;
+      
+      }           
+      .div1{
+      
+        height:100px;
+        
+        background-color: blue;
+        
+ 
+        
+        top:50px;
+        
+        left:50px;
+        
+        }
+      .div2{
+      
+      height:100px;
+      
+      background-color: blueviolet;
+      
+      position:relative;
+      
+      top:50px;
+      
+      left:50px;
+      width: 500px;
+      }
+      .div3{
+      
+        height:100px;
+        
+        background-color: lightcoral;
+        
+  
+        
+        top:50px;
+        
+        left:50px;
+        
+        }
+        .div4{
+      
+          height:100px;
+          
+          background-color: paleturquoise;
+                    
+          top:50px;
+          
+          left:50px;
+          
+          }
